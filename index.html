@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.textalign {
+    text-align: center;
+}
+
+#navitem1 {
+    color: white;
+    font-family: Roboto;
+}
+
+#navitem2 {
+    color: white;
+    font-family: Roboto;
+}
+
+#navitem3 {
+    color: white;
+    font-family: Roboto;
+}
+
+#navitem4 {
+    color: white;
+    font-family: Roboto;
+}
+
+#navitem5 {
+    color: white;
+    font-family: Roboto;
+}
+
+#j {
+    color: white;
+    font-family: Roboto;
+}
+
+#nav_bar {
+    color: white;
+    font-family: Roboto;
+}
+
+.bgj {
+    border: solid 3px #4b6cc1;
+    width: 60px;
+}
+
+.bg-2 {
+    background-color: #191a1d;
+}
+
+.image {
+    width: 270px;
+}
+
+.head1 {
+    color: white;
+    font-size: 38px;
+}
+
+.span {
+    color: #4b6cc1;
+}
+
+.para {
+    color: white;
+}
+.bg-container {
+    color: white;
+}
+
+.bg1 {
+    background-color: #323f4b;
+}
+
+.image {
+    width: 290px;
+}
+
+.fact {
+    color: #cced00;
+}
+
+.bg2 {
+    background-color: #1f2933;
+}
+
+.backhtml {
+    background-color: #323f4b;
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+
+}
+
+.img {
+    width: 100px;
+}
+
+.textalign {
+    text-align: center;
+}
+.bg {
+    background-color: #3e4c59;
+}
+
+.image {
+    width: 100%;
+}
+
+.card-bg-color {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.head1 {
+    color: #cced00;
+}
+
+.head-2 {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.small-head {
+    color: #9aa5b1;
+}
+
+.anchor-color {
+    color: #cced00;
+}
+.bg {
+    background-color: #3e4c59;
+}
+
+.image {
+    width: 60px;
+    border-radius: 8px;
+
+}
+
+.card-bg-color {
+    background-color: #323f4b;
+    border-radius: 15px;
+}
+
+.head1 {
+    color: #cced00;
+}
+
+.head-2 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.small-head {
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.para {
+    color: #9aa5b1;
+}
+.bg-container {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-work-done-bg.png');
+    background-size: cover;
+}
+
+.box1 {
+    border: solid opx;
+    background-color: transparent;
+    text-align: center;
+}
+
+.hr {
+    border: solid 1px white;
+    width: 50px;
+}
+
+.para {
+    color: white;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.font10 {
+    color: white;
+
+}
+.bg {
+    background-color: #1f2933;
+    width: 100vw;
+}
+
+.image {
+    width: 60px;
+    border-radius: 25px;
+
+}
+
+.card-bg-color {
+    background-color: #323f4b;
+
+    width: 250px;
+    height: 440px;
+}
+
+.head1 {
+    color: #cced00;
+}
+
+.head-2 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.small-head {
+    color: white;
+    font-family: roboto;
+    font-weight: 600;
+}
+
+.para {
+    color: #9aa5b1;
+    width: 230px;
+    font-size: 15px;
+}
+
+.textalign {
+    text-align: center;
+}
+.BGCOLOR {
+    background-color: #0d2436;
+}
+
+.image {
+    width: 100px;
+    border-radius: 100px;
+
+
+}
+
+.head-1 {
+    color: #cced00;
+}
+
+.para {
+    color: white;
+}
+
+.textalign {
+    background-color: #001c32;
+    text-align: center;
+}
+.image
+{
+    width:80%;
+}
+.img{
+    width:30%;
+}
+.para
+{
+    font-size:30px;
+}
+.image-done
+{
+    width:100%;
+    height:30%;
+    border-radius:10px;
+}
+.para-serveses
+{
+   font-size:20%; 
+}
+</style>
+</head>
+
+<body>
+    <div class="fluid-container">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand bgj textalign pt-2 " href="#" id="j">
+                <h2>J.</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-link active" id="navitem1" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="navitem2" href="#">About me </a>
+                    <a class="nav-link" id="navitem3" href="#">Projects</a>
+                    <a class="nav-link disabled" id="navitem4">Recent Blogs</a>
+                    <a class="nav-link disabled" id="navitem5">Testimonial</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container  bg-2 pt-5 pb-5">
+        <div class="d-flex flex-column justify-content-center ">
+            <div class="row">
+
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-banner-img.png" class="image">
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 p-5">
+                    <h2 class="head1">Hey, I am <span class="span">Jenny</span></h2>
+                    <h5 class="para">I am Frontend Developer & Mentor</h5>
+                    <button class="btn btn-primary text-white ">Contact Me</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-container ">
+        <div class="container bg1 ">
+            <div class="row p-5">
+                <div class="col-12 col-md-6 d-md-none order-1 order-md-2 ">
+                    <h3 class="fact mt-5"> Facts</h3>
+                    <h1 class="mb-3">About me</h1>
+                </div>
+                <div class="col-12 col-md-6 order-2 order-md-1 mt-5">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="image">
+                </div>
+                <div class="col-12 mt-3 col-md-6 d-md-none order-3 order-md-3">
+
+                    <p>My name is Jenny Wilson, and i am currently looking for a job in Frontend Development.
+                        i Have 3 YEARS working as a Frontend Developer. I have a bacheleroe's degree in Electronic and Communication . People find me to be an upbeat ,self-motivated Team
+                        player with excellent communication skills.
+                    </p>
+                    <p> i am a dedicated person with a family of four.i enjoy reading, and the knowledge and perspective that my reading gives me have strengthed my teaching skills
+                        skills and presentation abilities.
+                    </p>
+                </div>
+                <div class="col-12 col-md-6 order-md-1">
+                    <div class=" d-none d-md-block  order-1  ">
+                        <h3 class="fact mt-5"> Facts</h3>
+                        <h1 class="mb-3">About me</h1>
+                    </div>
+                    <div class=" d-none d-md-block mt-3 order-2">
+
+                        <p>My name is Jenny Wilson, and i am currently looking for a job in Frontend Development.
+                            i Have 3 YEARS working as a Frontend Developer. I have a bacheleroe's degree in Electronic and Communication . People find me to be an upbeat ,self-motivated Team
+                            player with excellent communication skills.
+                        </p>
+                        <p> i am a dedicated person with a family of four.i enjoy reading, and the knowledge and perspective that my reading gives me have strengthed my teaching skills
+                            skills and presentation abilities.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row bg2 p-5">
+                <div class="col-12 ">
+                    <h2 class="fact mt-5">Skills:</h2>
+                </div>
+                <div class="col-6 col-md-3 p-2 mb-2  shadow">
+                    <div class="backhtml textalign ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="img mt-3">
+                        <h2 class="p-2"> HTML</h2>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 p-2 mb-2 shadow">
+                    <div class="backhtml textalign ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="img mt-3">
+                        <h2 class="p-2"> CSS</h2>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 p-2 mb-2 shadow">
+                    <div class="backhtml textalign ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="img mt-3">
+                        <h2 class="p-2"> Bootstrap</h2>
+                    </div>
+
+                </div>
+                <div class="col-6 col-md-3 p-2 mb-2 shadow">
+                    <div class="backhtml textalign ">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="img mt-3">
+                        <h2 class="p-2"> JS</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="container bg p-5">
+        <div class="row">
+            <div class="col-12 ">
+                <h4 class="head1"> Portfolio</h4>
+
+                <h3 class="head-2">Projects I have done</h3>
+            </div>
+            <div class="col-12 col-md-6 ">
+                <div class="card-bg-color pb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-1-img.png" class="image-done">
+                    <h4 class="small-head p-4"> Web design</h4>
+                    <p class="head-2 pl-4">Royal Frand Hostel</p>
+                    <p class="small-head pl-4"> Royal Grand Hostel is a Simple Static Website.
+                        We can use this layout for building the other websites...</p>
+                    <a href="" class="pl-4 anchor-color">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                        </svg> </a>
+                       </div>
+                     </div>
+            <div class="col-12 col-md-6 ">
+                <div class="card-bg-color pb-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-project-2-img.png" class="image-done">
+                    <h5 class="small-head p-4"> Web design</h5>
+                    <p class="head-2 pl-4">Happy Meals</p>
+                    <p class="small-head pl-4"> Happy Meals is the best-in-class food oredering page today.width
+                        interactive UI/UX and simple call to actions...
+                        ...</p>
+                    <a href="" class="pl-4 anchor-color">Read More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8" />
+                        </svg> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <div class="container  bg ">
+        <div class="row">
+            <div class="col-12 ">
+                <h4 class="head1 mt-3"> Services</h4>
+
+                <h1 class="head-2 m-3">What I do</h1>
+            </div>
+            <div class="col-12 col-md-6 mt-5  ">
+                <div class="card-bg-color shadow  p-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-design-img.png" class="image">
+                    <h2 class="small-head pt-3"> Static Website</h2>
+
+                    <p class="text-white"> A Static Website contains Web
+                        pages with fixed content.Each page is developed using
+                        HTML and CSS and displays the same information to every visitor.</p></div>
+            </div>
+            <div class="col-12 col-md-6 mt-3 p-3 ">
+                <div class="card-bg-color shadow  p-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-web-development-img.png" class="image">
+                    <h2 class="small-head pt-3"> Responsive web design</h2>
+
+                    <p class="text-white">Responsive Web design is the approach that suggests that design and
+                        development should respond to the user's behaviour and environment based on screen size,platform and orientation.</p>
+                        </div>
+            </div>
+            <div class="col-12 col-md-6 mt-3 p-3 ">
+                <div class="card-bg-color shadow  p-3">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-customize-img.png" class="image">
+                    <h2 class="small-head pt-3"> Customisable Layouts</h2>
+
+                    <p class="text-white">Customisable sites are templates with set layouts.you may be able to change photos and colours ,but your site will look similar to many other sites due to the template. The same goes for...</p>
+                 </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+     <div class="container bg-container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="white" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                        <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z" />
+                    </svg>
+                    <hr class="hr">
+                    <h3 class="font10">10</h3>
+                    <p class="para">Projects Completed</p>
+
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="box1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="white" class="bi bi-card-text" viewBox="0 0 16 16">
+                        <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z" />
+                        <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8m0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5" />
+                    </svg>
+                    <hr class="hr">
+                    <h3 class="font10">2,800</h3>
+                    <p class="para">Lines of code</p>
+
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="box1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50px" fill="white" class="bi bi-clock" viewBox="0 0 16 16">
+                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71z" />
+                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0" />
+                    </svg>
+                    <hr class="hr">
+                    <h3 class="font10">15</h3>
+                    <p class="para">Hours Worked</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+     <div class="container bg">
+        <div class="row">
+            <div class="col-12 ">
+                <h4 class="head1 m-3"> Testimonials</h4>
+
+                <h1 class="head-2 m-3">Our Members Says</h1>
+            </div>
+            <div class="col-12">
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-12 m-3 ">
+                                <div class="card-bg-color shadow  textalign pt-3  ">
+
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-1-img.png" class="image">
+                                    <p class="para p-2 ">jenny is one of the best hard-working
+                                        develipoers, and it was a pleasure working with him.Having him on the project certainly made everything run smoother</p>
+
+                                    <h4 class="small-head "> -Gautham,Founder of CocoPay Company</h4>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 m-3 ">
+                                <div class="card-bg-color shadow  textalign pt-3  ">
+
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-2-img.png" class="image">
+                                    <p class="para p-2 ">Working With jenny was an excellent experience .He is an incredibly talented developer and what makes
+                                        him stand out is his work ethic and steady approach</p>
+
+                                    <h4 class="small-head "> -Rakedh,Co-developer in Veriphy Company</h4>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 m-3 ">
+                                <div class="card-bg-color shadow  textalign pt-3  ">
+
+                                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-testimonials-3-img.png" class="image">
+                                    <p class="para p-2 ">I have worked with jenny on two complex projects, and in both cases,
+                                        the projects are done in a timely fashion and delivered with excellent customer satisfaction.</p>
+
+                                    <h4 class="small-head "> -Riya,Co-founder of CocoPay Company</h4>
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container BGCOLOR pt-5">
+        <div class="row ">
+            <div class="col-12 col-md-3 ">
+                <div class="d-flex flex-row justify-content-start ">
+                    <div>
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-about-me-img.png" class="image  p-1 ">
+                    </div>
+                    <div class="p-1">
+                        <h3 class="head-1"> Jenny</h3>
+                        <p class="para"> Frontend Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <h4 class="head-1"> Phone No.</h4>
+                <p class="para"><span><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
+                        </svg></span> 9876543210</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h4 class="head-1"> E-mail</h4>
+                <p class="para"><span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                        </svg>
+
+                    </span> jenny3@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <h4 class="head-1"> Address</h4>
+                <p class="para"><span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                        </svg>
+                    </span> 17 Ayur Vigyan Nagar,New Dlhi,India.</p>
+            </div>
+            <div class=" fluid-container col-12 textalign">
+                <p class="para"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
+                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
+                        </svg></span>
+                    2020 by jenny Wilson. Created with Bootstrap.
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
